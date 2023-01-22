@@ -1,0 +1,52 @@
+label{
+    width:100px;
+  
+    
+   
+    display: inline-block;
+  
+}
+form{
+    background-color:violet;
+    background-attachment:fixed;
+    border-style: solid;
+    padding: 20px;
+   margin-left: 450px;
+   margin-right: 300px;
+   display:inline-block;
+   position: sticky;
+  
+}
+h1 {
+   
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    
+
+  }
+
+.registerbtn {
+background-color: green;
+color: white;
+padding: 16px 20px;
+margin: 8px;
+border: none;
+cursor: pointer;
+width: 20%;
+opacity: 0.9;
+}
+
+.restnn {
+background-color:red;
+color: white;
+padding: 16px 20px;
+margin: 8px;
+border: none;
+cursor: pointer;
+width: 20%;
+opacity: 0.9;
+
+
+
+}

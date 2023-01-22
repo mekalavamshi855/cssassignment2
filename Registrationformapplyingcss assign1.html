@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="attach.css">
+  </head>
+<body>
+<h1> Student Form Registration </h1>
+
+
+<form action="/action_page.php" target="_self" >
+<label  for="fname"  class="highlight" >   Name      </label>
+<input  type="text" id="name" name="name" ><br><br>
+<label for="pnumber"> Phone Number</label>
+<input type="text" id="name" name="name"><br> <br>
+<label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob"> <br> <br>
+  <label for="Address">Address</label>
+  <textarea id="Address" name="Address" rows="4" cols="40"></textarea>
+  
+</textarea>
+  <br><br>
+ 
+  <label for="Gender"> Gender</label >
+  <input type="radio" id="male" name="Gender" value="Male">
+  <label for ="male"> Male</label>
+  <input type="radio" id="fmale" name="Gender" value="fMale">
+  <label for ="fmale"> Female</label><br><br>
+  <label for="city">City</label>
+  <select id="city" name="city">
+    <option value="select">   Select the city</option>
+    <option value="HYD">  Hyderabad </option>
+    <option value="DEL">Delhi   </option>
+    <option value="GUR">  Gurgoan </option>
+    <option value="MANALI">  Manali </option>
+  </select><br><br>
+  <label for="hob">Hobbies</label>
+<input type="checkbox" id="mus" name="mus" value="music">
+<label for="mus">Music</label>
+<input type="checkbox" id="spo" name="spo" value="sports ">
+<label for="spo">Sports</label>
+<input type="checkbox" id="tra" name="stra" value="Travel ">
+<label for="tra">Travelling</label><br><br>
+<input type="submit" class="registerbtn" value="submit"> <input type="reset" class="restnn" value="reset">
+</form>
+
+</body>
+</html>
